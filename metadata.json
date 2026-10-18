@@ -1,0 +1,6 @@
+{
+  "name": "ASTU Geophysics & GIS Mapping Suite",
+  "description": "Interactive Web Mapping Application and Python GIS Suite for Adama Science and Technology University (ASTU), Ethiopia. Features verified OSM campus infrastructure, Main Ethiopian Rift geology, Wonji Fault Belt geophysics, and SRTM DEM elevation modeling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

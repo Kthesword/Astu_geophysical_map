@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "Pn",
+        "name": "Nazret Group Ignimbrite",
+        "period": "Upper Miocene - Pliocene",
+        "lithology": "Welded rhyolitic ignimbrites, fiamme tuffs, and volcaniclastic interbeds",
+        "color": "#f59e0b",
+        "fillOpacity": 0.45,
+        "density_gcc": "2.25 - 2.38",
+        "mag_susceptibility_si": "0.005 - 0.012",
+        "description": "Underlies ASTU campus and Adama town. Moderate strength, prone to columnar jointing."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.27,
+              8.55
+            ],
+            [
+              39.31,
+              8.55
+            ],
+            [
+              39.315,
+              8.585
+            ],
+            [
+              39.275,
+              8.585
+            ],
+            [
+              39.27,
+              8.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "Qwb",
+        "name": "Quaternary Wonji Basalt Series",
+        "period": "Pleistocene - Holocene",
+        "lithology": "Vesicular olivine-augite basalt lava flows and scoria cones",
+        "color": "#78716c",
+        "fillOpacity": 0.55,
+        "density_gcc": "2.80 - 2.95",
+        "mag_susceptibility_si": "0.025 - 0.045",
+        "description": "Dense mafic fissural flows along Wonji Fault Belt. Strong positive gravity & magnetic signature."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.292,
+              8.53
+            ],
+            [
+              39.33,
+              8.53
+            ],
+            [
+              39.33,
+              8.565
+            ],
+            [
+              39.3,
+              8.56
+            ],
+            [
+              39.292,
+              8.53
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "Qpr",
+        "name": "Boku Rhyolites & Pumice",
+        "period": "Quaternary",
+        "lithology": "Pantelleritic rhyolitic obsidian domes, flow-banded rhyolite and unwelded pumice",
+        "color": "#ec4899",
+        "fillOpacity": 0.45,
+        "density_gcc": "2.15 - 2.30",
+        "mag_susceptibility_si": "0.002 - 0.008",
+        "description": "Forms western elevated volcanic ridge flanking Adama. Associated with high geothermal gradient."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.255,
+              8.54
+            ],
+            [
+              39.275,
+              8.54
+            ],
+            [
+              39.28,
+              8.585
+            ],
+            [
+              39.255,
+              8.585
+            ],
+            [
+              39.255,
+              8.54
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "Qal",
+        "name": "Quaternary Alluvium & Colluvium",
+        "period": "Holocene",
+        "lithology": "Silt, reworked volcanic sands, diatomaceous clays and gravel deposits",
+        "color": "#ca8a04",
+        "fillOpacity": 0.4,
+        "density_gcc": "1.75 - 1.95",
+        "mag_susceptibility_si": "0.001 - 0.004",
+        "description": "Fills southern campus drainage valley and local depressions. Low resistivity in sounding surveys."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.285,
+              8.552
+            ],
+            [
+              39.305,
+              8.552
+            ],
+            [
+              39.302,
+              8.561
+            ],
+            [
+              39.284,
+              8.56
+            ],
+            [
+              39.285,
+              8.552
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

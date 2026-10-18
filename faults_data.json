@@ -1,0 +1,114 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adama Graben Eastern Margin Fault",
+        "system": "Wonji Fault Belt (WFB)",
+        "type": "Normal Fault (Active)",
+        "trend": "N18\u00b0E",
+        "dip_dir": "WNW (288\u00b0)",
+        "dip_angle": "68\u00b0",
+        "scarp_height_m": 32,
+        "slip_rate_mm_yr": "1.2 - 2.5",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.298,
+            8.535
+          ],
+          [
+            39.296,
+            8.55
+          ],
+          [
+            39.294,
+            8.565
+          ],
+          [
+            39.291,
+            8.58
+          ],
+          [
+            39.289,
+            8.595
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ASTU Campus Antithetic Fissure / Fault",
+        "system": "Wonji Fault Belt Subsidiary",
+        "type": "Normal Fault / Volcanic Fissure",
+        "trend": "N14\u00b0E",
+        "dip_dir": "ESE (104\u00b0)",
+        "dip_angle": "72\u00b0",
+        "scarp_height_m": 8,
+        "slip_rate_mm_yr": "0.5 - 1.0",
+        "color": "#b91c1c"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.287,
+            8.554
+          ],
+          [
+            39.288,
+            8.562
+          ],
+          [
+            39.289,
+            8.57
+          ],
+          [
+            39.29,
+            8.576
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boku Horst Eastern Border Fault",
+        "system": "Wonji Fault Belt",
+        "type": "Normal Fault",
+        "trend": "N22\u00b0E",
+        "dip_dir": "ESE (112\u00b0)",
+        "dip_angle": "65\u00b0",
+        "scarp_height_m": 55,
+        "slip_rate_mm_yr": "1.8 - 3.0",
+        "color": "#ef4444"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.268,
+            8.53
+          ],
+          [
+            39.271,
+            8.55
+          ],
+          [
+            39.275,
+            8.57
+          ],
+          [
+            39.278,
+            8.59
+          ]
+        ]
+      }
+    }
+  ]
+}

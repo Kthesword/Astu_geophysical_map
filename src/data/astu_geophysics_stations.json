@@ -1,0 +1,135 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ASTU-GP-01",
+        "name": "ASTU Applied Geophysics Base Station",
+        "lat": 8.5635,
+        "lon": 39.2912,
+        "elevation_m": 1675.2,
+        "bouguer_mgal": -198.4,
+        "residual_gravity_mgal": 14.6,
+        "magnetic_total_nt": 36480.0,
+        "magnetic_anomaly_nt": 65.2,
+        "app_resistivity_ohm_m": 45.0,
+        "heat_flow_mw_m2": 94.0,
+        "formation": "Nazret Group Ignimbrite",
+        "instrument": "Scintrex CG-5 Autograv / GSM-19 Overhauser Magnetometer",
+        "notes": "Department of Applied Geophysics field training calibration point."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.2912,
+          8.5635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ASTU-GP-02",
+        "name": "ASTU Southern Boundary Borehole Station",
+        "lat": 8.557,
+        "lon": 39.2895,
+        "elevation_m": 1652.0,
+        "bouguer_mgal": -200.1,
+        "residual_gravity_mgal": 12.1,
+        "magnetic_total_nt": 36395.0,
+        "magnetic_anomaly_nt": -19.8,
+        "app_resistivity_ohm_m": 18.5,
+        "heat_flow_mw_m2": 102.0,
+        "formation": "Quaternary Alluvium over Ignimbrite",
+        "instrument": "ABEM Terrameter SAS 4000 VES Sounding",
+        "notes": "Shallow water table at 28m depth. Low resistivity clay-rich aquifer cap."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.2895,
+          8.557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "WFB-STA-03",
+        "name": "Wonji Fault Scarp Observation Point",
+        "lat": 8.565,
+        "lon": 39.2965,
+        "elevation_m": 1698.0,
+        "bouguer_mgal": -194.5,
+        "residual_gravity_mgal": 18.8,
+        "magnetic_total_nt": 36560.0,
+        "magnetic_anomaly_nt": 145.0,
+        "app_resistivity_ohm_m": 120.0,
+        "heat_flow_mw_m2": 112.0,
+        "formation": "Wonji Basalt Dyke / Scoria Cone Margin",
+        "instrument": "Proton Precession Magnetometer",
+        "notes": "Intense dipolar magnetic high associated with basaltic feeder intrusion."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.2965,
+          8.565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BOKU-GT-04",
+        "name": "Boku Thermal Spring / Fumarole Station",
+        "lat": 8.548,
+        "lon": 39.265,
+        "elevation_m": 1780.0,
+        "bouguer_mgal": -205.2,
+        "residual_gravity_mgal": 8.2,
+        "magnetic_total_nt": 36320.0,
+        "magnetic_anomaly_nt": -95.0,
+        "app_resistivity_ohm_m": 6.2,
+        "heat_flow_mw_m2": 135.0,
+        "formation": "Boku Rhyolite & Pumice",
+        "instrument": "Geothermometer & Schlumberger VES",
+        "notes": "Surface water temp 48.5\u00b0C; hydrothermally demagnetized fault zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.265,
+          8.548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AWASH-SEIS-05",
+        "name": "Nazret Rift Broadband Seismic Node (GSE/EASC)",
+        "lat": 8.575,
+        "lon": 39.282,
+        "elevation_m": 1715.0,
+        "bouguer_mgal": -197.8,
+        "residual_gravity_mgal": 15.3,
+        "magnetic_total_nt": 36440.0,
+        "magnetic_anomaly_nt": 25.0,
+        "app_resistivity_ohm_m": 65.0,
+        "heat_flow_mw_m2": 91.0,
+        "formation": "Nazret Ignimbrite",
+        "instrument": "Guralp CMG-3T Broadband Seismometer",
+        "notes": "Continuous microseismic monitoring along Wonji active rift axis."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.282,
+          8.575
+        ]
+      }
+    }
+  ]
+}
