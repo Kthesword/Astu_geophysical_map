@@ -310,8 +310,8 @@ elif app_mode == "2. Geophysical & Tectonic Map":
             <div style="font-family: sans-serif; font-size: 12px; width: 240px;">
                 <h4 style="margin: 0 0 6px 0; color: #0f172a;">{p['id']}: {p['name']}</h4>
                 <b>Elevation:</b> {p['elevation_m']} m<br>
-                <b>Bouguer Gravity:</b> {p['bouguer_mgal']} mGal (Residual: {p['residual_gravity_mgal']:+d} mGal)<br>
-                <b>Magnetic Anomaly:</b> {p['magnetic_anomaly_nt']:+d} nT<br>
+                <b>Bouguer Gravity:</b> {p['bouguer_mgal']} mGal (Residual: {p['residual_gravity_mgal']:+.1f} mGal)<br>
+                <b>Magnetic Anomaly:</b> {p['magnetic_anomaly_nt']:+.1f} nT<br>
                 <b>Apparent Resistivity:</b> {p['app_resistivity_ohm_m']} &Omega;&middot;m<br>
                 <b>Heat Flow:</b> {p['heat_flow_mw_m2']} mW/m&sup2;<br>
                 <b>Formation:</b> {p['formation']}<br>
@@ -327,7 +327,7 @@ elif app_mode == "2. Geophysical & Tectonic Map":
             ).add_to(m)
 
     plugins.Fullscreen().add_to(m)
-    plugins.LayerControl().add_to(m)
+    folium.LayerControl().add_to(m)
     st_folium(m, width="100%", height=620)
 
 # TAB 3: TOPOGRAPHIC & DEM MAP

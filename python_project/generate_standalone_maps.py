@@ -145,7 +145,7 @@ def build_geophysical_map():
             c = f["geometry"]["coordinates"]
             popup = f"""<b>{p['id']}: {p['name']}</b><br>
             Bouguer Gravity: {p['bouguer_mgal']} mGal<br>
-            Magnetic Anomaly: {p['magnetic_anomaly_nt']:+d} nT<br>
+            Magnetic Anomaly: {p['magnetic_anomaly_nt']:+.1f} nT<br>
             Resistivity: {p['app_resistivity_ohm_m']} &Omega;&middot;m<br>
             Formation: {p['formation']}"""
             folium.Marker(
